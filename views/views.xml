@@ -25,9 +25,9 @@
     </record>
 
     <!-- Top menu item -->
-    <menuitem name="zhiming Note" id="zhiming_note.menu_root"/>
+    <menuitem name="zhiming Note" id="menu_note_root"/>
     <!-- menu categories -->
-    <menuitem name="Menu 1" id="zhiming_note.menu_1" parent="zhiming_note.menu_root"/>
+    <menuitem name="Menu 1" id="zhiming_note.menu_1" parent="menu_note_root"/>
     <!-- actions -->
     <menuitem name="List" id="zhiming_note.menu_1_list" parent="zhiming_note.menu_1"
               action="action_zhiming_note_view" />
