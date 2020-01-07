@@ -14,7 +14,7 @@
 
 
     <!-- actions opening views on models -->
-    <record model="ir.actions.act_window" id="action_zhiming_note_view">
+    <record model="ir.actions.act_window" id="111">
       <field name="name">zhiming Note</field>
       <field name="res_model">zhiming.note</field>
 <!--      <field name="view_mode">tree,form</field>-->
@@ -30,6 +30,6 @@
     <menuitem name="Menu 1" id="menu_note_sub" parent="menu_note_root"/>
     <!-- actions -->
     <menuitem name="List" id="zhiming_note.menu_1_list" parent="menu_note_sub"
-              action="action_zhiming_note_view" />
+              action="111" />
   </data>
 </odoo>
