@@ -4,7 +4,7 @@
 
     <record model="ir.ui.view" id="zhiming_note.list">
       <field name="name">zhimingNote list</field>
-      <field name="model">i.zhiming_note</field>
+      <field name="model">zhiming.note</field>
       <field name="arch" type="xml">
           <tree string="Note Main Tree">
             <field name="name"/>
@@ -16,7 +16,7 @@
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="zhiming_note.action_window">
       <field name="name">zhimingNote window</field>
-      <field name="res_model">i.zhiming_note</field>
+      <field name="res_model">zhiming.note</field>
       <field name="view_mode">tree,form</field>
     </record>
 
