@@ -13,5 +13,5 @@ class ZhimingNote(models.Model):
 class mynotes_item(models.Model):
     _name = 'mynotes.mynoteitems'
 
-    note_id = fields.Many2one('mynotes.mynotes')
+    note_id = fields.Many2one('mynotes.mynotes','items')
     notes = fields.Text("Notes")
