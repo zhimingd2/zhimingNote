@@ -11,11 +11,9 @@
           </tree>
       </field>
     </record>
-
-
-    <!-- actions opening views on models -->
-    <record model="ir.actions.act_window" id="zhiming_note.action_window">
-<!--      <field name="name">zhiming Note</field>-->
+    <record model="ir.actions.act_window" id="action_car_request_views">
+      <field name="name">Car Request</field>
+      <field name="type">ir.actions.act_window</field>
       <field name="res_model">zhiming.note</field>
 <!--      <field name="view_mode">tree,form</field>-->
 <!--      <field name="help" type="html">-->
@@ -25,11 +23,11 @@
     </record>
 
     <!-- Top menu item -->
-    <menuitem name="zhimingNote" id="zhiming_note.menu_root"/>
+    <menuitem name="zhimingNote" id="zhiming_note.menu_root" sequence="10"/>
     <!-- menu categories -->
-    <menuitem name="Menu 1" id="zhiming_note.menu_1" parent="zhiming_note.menu_root"/>
+    <menuitem name="Menu 1" id="zhiming_note.menu_1" parent="zhiming_note.menu_root" sequence="1"/>
     <!-- actions -->
     <menuitem name="List" id="zhiming_note.menu_1_list" parent="zhiming_note.menu_1"
-              action="zhiming_note.action_window"/>
+              action="action_car_request_views" sequence="1"/>
   </data>
 </odoo>
