@@ -6,6 +6,8 @@
       <field name="name">zhimingNote list</field>
       <field name="model">zhiming_note.zhiming_note</field>
       <field name="arch" type="xml">
+          <tree string="Notelist">
+          </tree>
       </field>
     </record>
 
