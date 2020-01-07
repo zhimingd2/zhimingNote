@@ -6,7 +6,8 @@ class ZhimingNote(models.Model):
     _name = "zhiming.note"
     _description = "Zhiming Note Test"
 
-    name = fields.Char(string="NoteMain", request=True)
+    name = fields.Char(string="User Name", request=True)
+    Phone = fields.Char(string="Phone number ")
     note_items = fields.One2many("mynotes.mynoteitems", "note_id")
 
 class mynotes_item(models.Model):

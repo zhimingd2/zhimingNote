@@ -9,6 +9,7 @@
         <form>
           <group>
             <field name="name"></field>
+            <field name="phone"></field>
           </group>
           <notebook>
             <page name="Note" string="Note Items">
