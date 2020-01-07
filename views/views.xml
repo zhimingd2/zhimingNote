@@ -15,13 +15,13 @@
 
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="zhiming_note.action_window">
-      <field name="name">zhiming Note</field>
+<!--      <field name="name">zhiming Note</field>-->
       <field name="res_model">zhiming.note</field>
-      <field name="view_mode">tree,form</field>
-      <field name="help" type="html">
-          <p class="oe_view_nocontent_create">View Note</p>
-          <p> View</p>
-      </field>
+<!--      <field name="view_mode">tree,form</field>-->
+<!--      <field name="help" type="html">-->
+<!--          <p class="oe_view_nocontent_create">View Note</p>-->
+<!--          <p> View</p>-->
+<!--      </field>-->
     </record>
 
     <!-- Top menu item -->
