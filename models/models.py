@@ -7,4 +7,10 @@ class ZhimingNote(models.Model):
     _description = "Zhiming Note Test"
 
     name = fields.Char(string="NoteMain", request=True)
+    note_items = fields.One2many("mynotes.mynoteitems", "note_id")
 
+class mynotes_item(models.Model):
+    _name = 'mynotes.mynoteitems'
+
+    note_id = fields.Many2one('mynotes.mynotes')
+    notes = fields.Text("Notes")

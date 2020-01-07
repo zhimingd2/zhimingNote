@@ -6,9 +6,20 @@
       <field name="name">view.zhiming.note.tree</field>
       <field name="model">zhiming.note</field>
       <field name="arch" type="xml">
-          <tree string="Note Main Tree">
-            <field name="name"/>
-          </tree>
+        <form>
+          <group>
+            <field name="name"></field>
+          </group>
+          <notebook>
+            <page name="Note" string="Note Items">
+              <field name="note_items" widget="one2many_list">
+                <tree string="items" editable="botton">
+                       <field name = "notes" />
+                </tree>
+              </field>
+            </page>
+          </notebook>
+        </form>
       </field>
     </record>
 
