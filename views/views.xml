@@ -29,7 +29,7 @@
     <!-- menu categories -->
     <menuitem name="Menu 1" id="menu_note_sub" parent="menu_note_root"/>
     <!-- actions -->
-    <menuitem name="List" id="zhiming_note.menu_1_list" parent="menu_note_sub"
+    <menuitem name="List" id="action_id_note" parent="menu_note_sub"
               action="111" />
   </data>
 </odoo>
