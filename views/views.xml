@@ -2,8 +2,8 @@
   <data>
     <!-- explicit list view definition -->
 
-    <record model="ir.ui.view" id="zhiming_note.list">
-      <field name="name">zhimingNote list</field>
+    <record model="ir.ui.view" id="view_zhiming_note_tree">
+      <field name="name">view.zhiming.note.tree</field>
       <field name="model">zhiming.note</field>
       <field name="arch" type="xml">
           <tree string="Note Main Tree">
