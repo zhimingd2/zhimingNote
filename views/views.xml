@@ -15,7 +15,7 @@
 
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="zhiming_note.action_window">
-      <field name="name">zhimingNote window</field>
+      <field name="name">take a note</field>
       <field name="res_model">zhiming.note</field>
       <field name="view_mode">tree,form</field>
       <field name="help" type="html">
