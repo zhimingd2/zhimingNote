@@ -11,7 +11,7 @@
           </tree>
       </field>
     </record>
-    <record model="ir.actions.act_window" id="action_car_request_views">
+    <record model="ir.actions.act_window" id="action_car_request_views1">
       <field name="name">Car Request</field>
       <field name="type">ir.actions.act_window</field>
       <field name="res_model">zhiming.note</field>
@@ -28,6 +28,6 @@
     <menuitem name="Menu 1" id="zhiming_note.menu_1" parent="zhiming_note.menu_root" sequence="1"/>
     <!-- actions -->
     <menuitem name="List" id="zhiming_note.menu_1_list" parent="zhiming_note.menu_1"
-              action="action_car_request_views" sequence="1"/>
+              action="action_car_request_views1" sequence="1"/>
   </data>
 </odoo>
